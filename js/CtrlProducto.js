@@ -48,7 +48,7 @@ async function busca() {
       /**
        * @type {
           import("./tipos.js").
-                  Alumno} */
+                  Producto} */
       const data = doc.data();
       forma.identificador.value = data.identificador;
       forma.nombre.value = data.nombre || "";
@@ -66,7 +66,7 @@ async function busca() {
     }
   } catch (e) {
     muestraError(e);
-    muestraAlumnos();
+    muestraProductos();
   }
 }
 
@@ -85,7 +85,7 @@ async function guarda(evt) {
     /**
      * @type {
         import("./tipos.js").
-                Alumno} */
+                Producto} */
     const modelo = {
       identificador, 
       nombre,
