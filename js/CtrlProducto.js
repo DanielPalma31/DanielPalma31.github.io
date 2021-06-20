@@ -7,7 +7,7 @@ import {
   muestraError
 } from "../lib/util.js";
 import {
-  muestraAlumnos
+  muestraProductos
 } from "./navegacion.js";
 import {
   tieneRol
