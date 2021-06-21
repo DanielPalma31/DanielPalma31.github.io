@@ -4,14 +4,14 @@
  */
 
 /**
- * @typedef {Object} Alumno
+ * @typedef {Object} Producto
  * @property {string} nombre
  */
 
 /**
  * @typedef {Object} Usuario
  * @property {string[]} rolIds
- * @property {string} alumnoId
+ * @property {string} productoId
  */
 
 // @ts-nocheck
